@@ -102,14 +102,6 @@ footer {
 }
 
 @media (max-width: 425px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: calc(100vh - 141px);
-    }
 
     input[type=text] {
         font-size: 25px;
@@ -117,14 +109,6 @@ footer {
 }
 
 @media (max-width: 380px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: calc(100vh - 141px);
-    }
 
     input[type=text] {
         font-size: 20px;
@@ -136,14 +120,6 @@ footer {
 }
 
 @media (max-width: 320px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: calc(100vh - 141px);
-    }
 
     header img {
         width: 250px;
