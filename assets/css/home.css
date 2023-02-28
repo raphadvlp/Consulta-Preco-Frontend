@@ -124,17 +124,7 @@ footer {
         width: 250px;
         height: auto;
     }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        /* height: calc(100vh - 200px); */
-        height: 100%;
-    }
-
+    
     footer {
         font-size: 10px;
     }
