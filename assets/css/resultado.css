@@ -43,7 +43,7 @@ main {
     color: #FFD30B;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    width: 100%;
     height: 35px;
     text-align: center;
     font-size: 2.5rem;
@@ -52,7 +52,7 @@ main {
     /* border-bottom: 1px solid #FFF;
     border-radius: 15px; */
     border-bottom: 1px solid #FFF;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .resultado-produto {
