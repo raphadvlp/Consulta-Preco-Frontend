@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #01294d;
+    color: #FFF;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #FFF;
+    background-color: #2a5a8a;
+}
+
+/* header img {
+    margin-left: 20px;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #FFD30B;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #01294d;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+
+.ean {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input[type=text] {
+    height: 100%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+input[type=submit] {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    background-color: #343a40;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+}
