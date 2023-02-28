@@ -124,18 +124,18 @@ footer {
         width: 250px;
         height: auto;
     }
-    footer {
-        font-size: 10px;
-    }
-}
 
-@media (max-width: 320px) {
     main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: calc(100vh - 200px);
+        /* height: calc(100vh - 200px); */
+        height: 100%;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
