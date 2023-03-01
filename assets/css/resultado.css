@@ -46,7 +46,7 @@ main {
     height: 35px;
     text-align: center;
     font-size: 1.5rem; /* FONTE REDUZIDA PARA CABER 45 CARACTERES */
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding-top: 20px;
     padding-bottom: 20px;
     /* border-top: 1px solid #FFF;
